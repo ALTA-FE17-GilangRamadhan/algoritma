@@ -1,0 +1,15 @@
+problem 1
+begin
+num n, i, r
+display "enter number : "
+accept n
+for(i=0; i<=n; i++)
+begin
+IF n%i=0
+  r+=1
+end
+IF r%2=0
+  output "Lampu Mati"
+ELSE
+  output "Lampu Menyala"
+end
